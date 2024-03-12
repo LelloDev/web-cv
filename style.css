@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(rgb(10, 49, 27), rgb(186, 219, 163)) ;
+    width: 100%;
+    height: 100Vh;
+}
+.foto {
+    background-color: aquamarine;
+    padding: 5vh;
+
+
+    
+}
+.nome {
+    color: aliceblue;
+    font-size: 10vh;
+    text-align: center;
+    
+}
+.imgtext {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6vh;
+    flex-direction: row;
+    margin-left: 50px;
+    
+}
+nav ul li {
+    font-size: 20px;
+    list-style: none;
+    margin-left: 40px;
+    display: inline-block;
+    
+}
+li {
+    display: inline-block;
+    border-radius: 50px;
+    padding: 25px 65px;
+    color: #eef1f1;
+    border: 2px solid #044b2b
+
+}
+li:hover {
+    background: #0e180e;
+    color: #f7eded;
+}
+.imgtext img {
+    border-radius: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
